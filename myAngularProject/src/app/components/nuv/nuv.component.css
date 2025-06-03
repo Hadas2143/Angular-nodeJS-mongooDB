@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #fff5f7; 
+    border-bottom: 1px solid #f3cdd4;
+  }
+
+  .navbar .navbar-brand {
+    color: #e6a5b6 !important;
+  }
+
+  .navbar .nav-link {
+    color: #3a3a3a !important;
+    transition: color 0.3s ease;
+  }
+
+  .navbar .nav-link:hover {
+    color: #e6a5b6 !important;
+  }
+
+  .navbar .nav-link.text-success {
+    color: #e6a5b6 !important;
+  }
+
+  .navbar .nav-link.text-success:hover {
+    color: #d98ea4 !important;
+  }

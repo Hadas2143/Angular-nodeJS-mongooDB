@@ -1,0 +1,37 @@
+<div class="d-flex flex-column align-items-center w-100" style="max-width: 400px; margin: 0 auto;">
+  <div class="form-group pink-input mb-3 d-flex align-items-center gap-2 w-100">
+    <i class="bi bi-card-text icon-pink"></i>
+    <input type="text" placeholder="ID" name="_id" [(ngModel)]="myUser._id" class="form-control custom-input">
+  </div>
+
+  <div class="form-group pink-input mb-3 d-flex align-items-center gap-2 w-100">
+    <i class="bi bi-person-fill icon-pink"></i>
+    <input type="text" placeholder="Name" name="name" [(ngModel)]="myUser.name" class="form-control custom-input">
+  </div>
+
+  <div class="form-group pink-input mb-3 d-flex align-items-center gap-2 w-100">
+    <i class="bi bi-lock-fill icon-pink"></i>
+    <input type="password" placeholder="Password" name="password" [(ngModel)]="myUser.password" class="form-control custom-input">
+  </div>
+
+  <div class="form-group pink-input mb-3 d-flex align-items-center gap-2 w-100">
+    <i class="bi bi-geo-alt-fill icon-pink"></i>
+    <input type="text" placeholder="Address" name="address" [(ngModel)]="myUser.address" class="form-control custom-input">
+  </div>
+
+  <div class="form-group pink-input mb-3 d-flex align-items-center gap-2 w-100">
+    <i class="bi bi-telephone-fill icon-pink"></i>
+    <input type="text" placeholder="Phone" name="phone" [(ngModel)]="myUser.phone" class="form-control custom-input">
+  </div>
+
+  <div class="pink-checkbox mb-3 d-flex align-items-center gap-2 w-100">
+    <input type="checkbox" id="isManager" name="isManager" [(ngModel)]="myUser.isManager" class="form-check-input-pink">
+    <label for="isManager" class="form-check-label-pink">
+      <i class="bi bi-person-badge-fill me-1 icon-pink"></i> Is Manager
+    </label>
+  </div>
+
+  <button class="btn btn-pink w-100" (click)="save()">
+    <i class="bi bi-check-circle-fill me-1"></i> Save
+  </button>
+</div>

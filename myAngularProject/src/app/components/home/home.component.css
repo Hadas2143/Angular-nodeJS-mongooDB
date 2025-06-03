@@ -1,0 +1,49 @@
+.card-custom {
+  background-color: #e6f5ea;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 128, 0, 0.15);
+}
+
+.card-custom:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 128, 0, 0.3);
+}
+
+.card-img-top {
+  transition: all 0.3s ease;
+}
+
+.card-img-top:hover {
+  animation: flicker 0.4s alternate infinite;
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.7; }
+  100% { opacity: 1; }
+}
+
+.btn-success {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-success:hover {
+  background-color: #28a745;
+  transform: scale(1.05);
+}
+.card {
+  transition: transform 0.4s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  z-index: 2;
+}
+
+.card .btn {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .btn {
+  transform: translateY(-5px);
+}

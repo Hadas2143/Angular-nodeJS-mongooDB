@@ -1,0 +1,40 @@
+.card {
+  border-radius: 1rem;
+}
+.input-group-text {
+  width: 45px;
+  justify-content: center;
+}
+input::placeholder {
+  color: #aaa;
+}
+
+  .bg-pink {
+    background-color: #d36b8b !important;
+  }
+
+  .text-pink {
+    color: #d36b8b !important;
+  }
+
+  .border-pink {
+    border: 2px solid #d36b8b !important;
+    border-radius: 0.5rem;
+  }
+
+  .btn-pink {
+    background-color: #d36b8b !important;
+    color: white !important;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-pink:hover, 
+  .btn-pink:focus {
+    background-color: #a33a6f !important;
+    box-shadow: 0 0 8px #a33a6faa;
+    color: white !important;
+  }
+

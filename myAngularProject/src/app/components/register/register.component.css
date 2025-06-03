@@ -1,0 +1,50 @@
+.pink-input {
+  background-color: #fff0f6;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid #d36b8b;
+}
+
+.icon-pink {
+  color: #d36b8b;
+  font-size: 1.3rem;
+}
+
+.custom-input {
+  border: none;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  font-size: 1rem;
+  color: #6a1b4d;
+}
+
+.btn-pink {
+  background: #d36b8b;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 0;
+  border-radius: 0.5rem;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-pink:hover,
+.btn-pink:focus {
+  background: #a33a6f;
+  color: white;
+  box-shadow: 0 0 8px #a33a6faa;
+}
+
+.pink-checkbox .form-check-input-pink {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 2px solid #d36b8b;
+  cursor: pointer;
+}
+
+.form-check-label-pink {
+  color: #6a1b4d;
+  cursor: pointer;
+  user-select: none;
+}
